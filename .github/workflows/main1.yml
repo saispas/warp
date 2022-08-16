@@ -1,4 +1,4 @@
-name: 'Getting WARP+ Traffic'
+name: 'Getting WARP+ Traffic 1'
 
 on:
   workflow_dispatch:
@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: 'Getting WARP+ Traffic'
+      - name: 'Getting WARP+ Traffic 1'
         env:
           DEVICEID: ${{ secrets.DEVICEID }}      
         run: python warp.py
